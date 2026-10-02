@@ -36,9 +36,6 @@ public class Array2{
         System.out.println(brr[index]);
 
         }
-
-
-  
         for(int val:brr){
             System.out.print("["+val+"]"); 
         }
