@@ -46,17 +46,44 @@
 
 
 //               For Each loop
-import java.util.*;
+// import java.util.*;
 
-public class Array2{
+// public class Array2{
     
-    public static void main(String[] args){
-        int arr[]={10,20,30};
+//     public static void main(String[] args){
+//         int arr[]={10,20,30};
 
+//         for(int val:arr){
+//             System.out.println(val); 
+//         }
+
+
+// // System.out.println("Enter the number ");
+// // Scanner sc= new Scanner(System.in);
+// //     int num=sc.nextInt();
+
+// // System.out.println(num);
+        
+//     }
+// }
+
+// Get Array Element from the USER
+import java.util.*;
+public class Array2{
+
+   
+    public static void main (String[] args){
+   int arr[]=new int[3];
+        Scanner sc=new Scanner(System.in);
+     
+     int n=arr.length;
+        for(int i=0;i<=n-1;i++){
+
+         System.out.println("Enter the Element of index "+i);
+             arr[i]=sc.nextInt();
+        }
         for(int val:arr){
             System.out.println(val);
         }
-
-        
     }
 }
