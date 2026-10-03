@@ -45,7 +45,7 @@
 // }  
 
 
-//               For Each loop
+//                               For Each loop
 // import java.util.*;
 
 // public class Array2{
@@ -67,23 +67,77 @@
 //     }
 // }
 
-// Get Array Element from the USER
-import java.util.*;
+//               Get Array Element from the USER
+
+// import java.util.*;
+// public class Array2{
+
+//     public static void main (String[] args){
+//    int arr[]=new int[3];
+//         Scanner sc=new Scanner(System.in);
+     
+//      int n=arr.length;
+//         for(int i=0;i<=n-1;i++){
+
+//          System.out.println("Enter the Element of index "+i);
+//              arr[i]=sc.nextInt();
+//         }
+//         for(int val:arr){
+//             System.out.print(val);
+//         }
+//     }
+// }
+
+
+//                                     PRACTICE
+
+//  Print array Element without using for each loop
+// public class Array2{
+
+//     public static void main (String[]args){
+//      int arr[]={12,34,56,77,88};
+
+// int n=arr.length;
+// int sum=0;
+//      for(int i=0;i<=n-1;i++){
+//         System.out.println(arr[i]);
+//      }
+//     }
+// }
+
+
+//                  Sum of the all Array Element
+
+// public class Array2{
+
+//     public static void main (String[] args){
+
+//      int arr[]={12,12};
+
+//       int n=arr.length;
+//       int sum=0; // counter variable using 
+//       for(int i=0;i<=n-1;i++){
+//         int value=arr[i];
+//         sum=sum+value;
+        
+//      }
+//      System.out.println(sum);
+//     }
+// }
+
 public class Array2{
 
-   
     public static void main (String[] args){
-   int arr[]=new int[3];
-        Scanner sc=new Scanner(System.in);
-     
-     int n=arr.length;
-        for(int i=0;i<=n-1;i++){
 
-         System.out.println("Enter the Element of index "+i);
-             arr[i]=sc.nextInt();
-        }
-        for(int val:arr){
-            System.out.println(val);
-        }
+     int arr[]={12,12};
+
+      int n=arr.length;
+      int sum=0; // counter variable using 
+      for(int i=0;i<=n-1;i++){
+        int value=arr[i];
+        sum=sum+value;
+        
+     }
+     System.out.println(sum);
     }
 }
