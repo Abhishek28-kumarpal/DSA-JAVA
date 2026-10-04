@@ -1,4 +1,4 @@
-// An Array is a Collection of element  of the same datatype stored in continuous memory locations.
+// // An Array is a Collection of element  of the same datatype stored in continuous memory locations.
 // public class Array2{
 
 //     public static void main (String[] args){
@@ -45,7 +45,7 @@
 // }  
 
 
-//                               For Each loop
+// //                             For Each loop
 // import java.util.*;
 
 // public class Array2{
@@ -58,16 +58,16 @@
 //         }
 
 
-// // System.out.println("Enter the number ");
-// // Scanner sc= new Scanner(System.in);
-// //     int num=sc.nextInt();
+// System.out.println("Enter the number ");
+// Scanner sc= new Scanner(System.in);
+//     int num=sc.nextInt();
 
-// // System.out.println(num);
+// System.out.println(num);
         
 //     }
 // }
 
-//               Get Array Element from the USER
+// //               Get Array Element from the USER
 
 // import java.util.*;
 // public class Array2{
@@ -89,7 +89,7 @@
 // }
 
 
-//                                     PRACTICE
+//                       PRACTICE
 
 //  Print array Element without using for each loop
 // public class Array2{
@@ -106,7 +106,7 @@
 // }
 
 
-//                  Sum of the all Array Element
+//           Sum of the all Array Element
 
 // public class Array2{
 
@@ -114,9 +114,9 @@
 
 //      int arr[]={12,12};
 
-//       int n=arr.length;
+//     //  int n=arr.length;
 //       int sum=0; // counter variable using 
-//       for(int i=0;i<=n-1;i++){
+//       for(int i=0;i<arr.length;i++){
 //         int value=arr[i];
 //         sum=sum+value;
         
@@ -146,11 +146,11 @@
 
 
 
-import java.util.*;
-public class Array2{
-    public static void main (String[] args){
+// import java.util.*;
+// public class Array2{
+//     public static void main (String[] args){
 
-// // ----------------------way to get Input from user 
+// // // ----------------------way to get Input from user 
 
 // //         System.out.println("Enetr the element ");
 // //    Scanner sc=new Scanner(System.in);
@@ -160,38 +160,98 @@ public class Array2{
 
 
 
-// // ---------------------there are two ways to print array element.
+// // // ---------------------there are two ways to print array element.
 
 
-// // // with for loop
-// // int arr[]={10,30,40,50};
+//   with for loop
+//  int arr[]={10,30,40,50};
 
-// // for(int i=0;i<arr.length;i++){
-// // System.out.println(arr[i]);
-// // }
+//  for(int i=0;i<arr.length;i++){
+//  System.out.println(arr[i]);
+//  }
 
-// // // with for each loop
+// //  with for each loop
 
-// // int arr[]={10,20,30,40,50};
+//  int arr[]={10,20,30,40,50};
 
-// // for(int val:arr){
-// // System.out.println(val);
+//  for(int val:arr){
+//  System.out.println(val);
 
-// // }
+//  }
 
-int arr[]=new int [4];
+// int arr[]=new int [4];
 
-Scanner sc=new Scanner(System.in);
+// Scanner sc=new Scanner(System.in);
 
-for(int i=0;i<arr.length;i++){
-     arr[i]=sc.nextInt();
-}
+// for(int i=0;i<arr.length;i++){
+//      arr[i]=sc.nextInt();
+// }
 
-for(int val:arr){
-    System.out.print(val+"," );
-}
+// for(int val:arr){
+//     System.out.print(val+"," );
+// }
 
 
 
+//     }
+// }
+
+// public class Array2{
+//     public static void main(String[] args){
+
+//         int arr[] = new int [4];
+//         int arr[]={};
+
+//         Scanner sc=new Scanner (System.in);
+
+//         int elmt=sc.nextInt();
+//         int sum=0;
+//         for(int i=0;i<arr.length;i++){
+        
+//         }
+//     }
+// }
+
+
+
+
+
+// public class Array2{
+
+//     public static void main (String[] args){
+
+//      int arr[]={12,12};
+
+//     //  int n=arr.length;
+//       int sum=0; // counter variable using 
+//       for(int i=0;i<arr.length;i++){
+//         int value=arr[i];
+//         sum=sum+value;
+        
+//      }
+//      System.out.println(sum); 
+//     }
+
+import java.util.*;
+public class Array2{
+    public static void main(String[] args){
+
+        Scanner sc=new Scanner(System.in);
+       System.out.print("Enter the size of the array");
+
+       int n=sc.nextInt();
+       int arr[]=new int[n];
+
+       System.out.println("Enter the Element");
+
+       for(int i=0;i<arr.length;i++){
+         arr[i]=sc.nextInt();
+       }
+         
+         int sum=0;
+         for(int i=0;i<arr.length;i++){
+            sum=sum + arr[i];
+         }
+         System.out.println(sum);
     }
 }
