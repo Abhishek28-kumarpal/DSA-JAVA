@@ -1,7 +1,7 @@
 import java.util.*; 
 public class Arrays{
     
-    public static void main (String[]args){
+    public static void main (String[] args){
         // declaration
         // int arr[];
 
@@ -31,13 +31,13 @@ public class Arrays{
 
         for(int i=0;i<=n-1;i++){
 
-        System.out.println("Provide input for index of :"+i);
+        System.out.println  ("Provide input for index of :"+i);
              brr[i]= sc.nextInt();
         }
         
             System.out.println();
         for(int val:brr){
-            System.out.print("["+val+"]"); 
+            System.out.print("["+val+"]");
         }
         
         

@@ -76,14 +76,14 @@
 //    int arr[]=new int[3];
 //         Scanner sc=new Scanner(System.in);
      
-//      int n=arr.length;
-//         for(int i=0;i<=n-1;i++){
+//     //  int n=arr.length;
+//         for(int i=0;i<arr.length;i++){
 
 //          System.out.println("Enter the Element of index "+i);
 //              arr[i]=sc.nextInt();
 //         }
 //         for(int val:arr){
-//             System.out.print(val);
+//             System.out.println(val);
 //         }
 //     }
 // }
@@ -125,19 +125,73 @@
 //     }
 // }
 
-public class Array2{
+// public class Array2{
 
+//     public static void main (String[] args){
+
+//      int arr[]={12,12};
+
+//       int n=arr.length;
+//       int sum=0; // counter variable using 
+//       for(int i=0;i<=n-1;i++){
+//         int value=arr[i];
+//         sum=sum+value;
+        
+//      }
+//      System.out.println(sum);
+//     }
+// }
+
+
+
+
+
+import java.util.*;
+public class Array2{
     public static void main (String[] args){
 
-     int arr[]={12,12};
+// // ----------------------way to get Input from user 
 
-      int n=arr.length;
-      int sum=0; // counter variable using 
-      for(int i=0;i<=n-1;i++){
-        int value=arr[i];
-        sum=sum+value;
-        
-     }
-     System.out.println(sum);
+// //         System.out.println("Enetr the element ");
+// //    Scanner sc=new Scanner(System.in);
+// //    int elmt=sc.nextInt();
+
+// //    System.out.println(elmt);
+
+
+
+// // ---------------------there are two ways to print array element.
+
+
+// // // with for loop
+// // int arr[]={10,30,40,50};
+
+// // for(int i=0;i<arr.length;i++){
+// // System.out.println(arr[i]);
+// // }
+
+// // // with for each loop
+
+// // int arr[]={10,20,30,40,50};
+
+// // for(int val:arr){
+// // System.out.println(val);
+
+// // }
+
+int arr[]=new int [4];
+
+Scanner sc=new Scanner(System.in);
+
+for(int i=0;i<arr.length;i++){
+     arr[i]=sc.nextInt();
+}
+
+for(int val:arr){
+    System.out.print(val+"," );
+}
+
+
+
     }
 }
