@@ -259,16 +259,29 @@
 //     }
 // }
 
+// import java.util.*;
+// public class Array2{
+// public  static void main (String[] args){
+// int arr[]={2,3,10,20};
+// int count=1;
+// for(int i=0;i<arr.length;i++){
+//   count=count * arr[i]; //In short 
+// }
+// System.out.println(count);
+//   }
+
+// }
+
 import java.util.*;
 public class Array2{
-public  static void main (String[] args){
-int arr[]={2,3,10,20};
-int count=1;
-for(int i=0;i<arr.length;i++){
-  count=count * arr[i]; //In short 
-}
-System.out.println(count);
+  public static void main(String[] args){
+    int arr[]={2,3,10,20};
+    int count=1;
+    for(int i=0; i<arr.length;i++){
+      int value=arr[i]; // multiply of the element  logic in detail
+       count=count*value;// multiply of the array element logi
+    }
+    System.out.println(count);
   }
-
 }
 
