@@ -1,3 +1,8 @@
+
+
+//                1D Array
+
+
 // // An Array is a Collection of element  of the same datatype stored in continuous memory locations.
 // public class Array2{
 
