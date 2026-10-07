@@ -20,14 +20,41 @@
 // }
 
 
+// import java.util.*;
+// public class TwoDarray{
+//     public static void  main(String[] args){
+
+//         int arr[][]={
+//             {1,2,3},
+//             {5,4,7},
+//             {0,6,9}
+//         };
+//         // System.out.println(arr[1][1]);
+
+// // int rowlength=arr.length; //find row length
+// // int collength=arr[0].length; // its find the row length
+// // like how many column in the row zero....
+//         for (int rowindex =0; rowindex < arr.length ;rowindex++){
+//             for(int colindex=0; colindex < arr[0].length ;colindex++){
+//                 System.out.print(arr[rowindex][colindex]+ " ");
+//             }
+//                 System.out.println();
+
+//         }
+
+//     }
+// }
+
+
+//--------------------------Jagged array--------------------------
 import java.util.*;
 public class TwoDarray{
     public static void  main(String[] args){
 
         int arr[][]={
             {1,2,3},
-            {5,4,7},
-            {0,6,9}
+            {5,4,4,7,4,3,},
+            {0,}
         };
         // System.out.println(arr[1][1]);
 
@@ -35,7 +62,7 @@ public class TwoDarray{
 // int collength=arr[0].length; // its find the row length
 // like how many column in the row zero....
         for (int rowindex =0; rowindex < arr.length ;rowindex++){
-            for(int colindex=0; colindex < arr[0].length ;colindex++){
+            for(int colindex=0; colindex < arr[rowindex].length ;colindex++){
                 System.out.print(arr[rowindex][colindex]+ " ");
             }
                 System.out.println();
