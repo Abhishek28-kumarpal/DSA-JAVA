@@ -47,27 +47,57 @@
 
 
 //--------------------------Jagged array--------------------------
-import java.util.*;
-public class TwoDarray{
-    public static void  main(String[] args){
+// import java.util.*;
+// public class TwoDarray{
+//     public static void  main(String[] args){
 
-        int arr[][]={
-            {1,2,3},
-            {5,4,4,7,4,3,},
-            {0,}
-        };
-        // System.out.println(arr[1][1]);
+//         int arr[][]={
+//             {1,2,3},
+//             {5,4,4,23,45,21,34},
+//             {0,}
+//         };
+//         // System.out.println(arr[1][1]);
 
-// int rowlength=arr.length; //find row length
-// int collength=arr[0].length; // its find the row length
-// like how many column in the row zero....
-        for (int rowindex =0; rowindex < arr.length ;rowindex++){
-            for(int colindex=0; colindex < arr[rowindex].length ;colindex++){
-                System.out.print(arr[rowindex][colindex]+ " ");
+// // int rowlength=arr.length; //find row length
+// // int collength=arr[0].length; // its find the row length
+// // like how many column in the row zero....
+//         for (int rowindex =0; rowindex < arr.length ;rowindex++){
+
+//             //    finally we can add the arr[rowindex] into the condition
+//             for(int colindex=0; colindex < arr[rowindex].length ;colindex++){
+//                 System.out.print(arr[rowindex][colindex]+ " ");
+//             }
+//                 System.out.println();
+
+//         }
+
+//     }
+// }
+
+
+//-------------------Input from the user into the 2D Array---------------------
+import java.util.Scanner;
+
+public class TwoDarray {
+    static void main() {
+
+        int arr[][] = new int[3][4];
+        Scanner sc = new Scanner(System.in);
+
+        //input
+        for(int i=0; i<arr.length; i++) {
+            for(int j=0; j<arr[i].length; j++) {
+                System.out.println("Provide value for row=" + i + " and column=" + j);
+                arr[i][j] = sc.nextInt();
             }
-                System.out.println();
-
         }
 
+        //print
+        for(int rowIndex = 0; rowIndex<=arr.length-1; rowIndex++) {
+            for(int colIndex=0; colIndex<=arr[rowIndex].length-1; colIndex++) {
+                System.out.print(arr[rowIndex][colIndex] + " ");
+            }
+            System.out.println();
+        }
     }
 }
