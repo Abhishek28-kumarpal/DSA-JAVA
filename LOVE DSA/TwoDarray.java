@@ -76,28 +76,48 @@
 
 
 //-------------------Input from the user into the 2D Array---------------------
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class TwoDarray {
-    static void main() {
+// public class TwoDarray {
+//     static void main() {
 
-        int arr[][] = new int[3][4];
-        Scanner sc = new Scanner(System.in);
+//         int arr[][] = new int[3][4];
+//         Scanner sc = new Scanner(System.in);
 
-        //input
-        for(int i=0; i<arr.length; i++) {
-            for(int j=0; j<arr[i].length; j++) {
-                System.out.println("Provide value for row=" + i + " and column=" + j);
-                arr[i][j] = sc.nextInt();
+//         //input
+//         for(int i=0; i<arr.length; i++) {
+//             for(int j=0; j<arr[i].length; j++) {
+//                 System.out.println("Provide value for row=" + i + " and column=" + j);
+//                 arr[i][j] = sc.nextInt();
+//             }
+//         }
+
+//         //print
+//         for(int rowIndex = 0; rowIndex<arr.length; rowIndex++) {
+//             for(int colIndex=0; colIndex<arr[rowIndex].length; colIndex++) {
+//                 System.out.print(arr[rowIndex][colIndex] + " ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+//---------------------------Sum of 2DArray element--------------------
+
+import java.util.*;
+public class TwoDarray{
+    public static void main(String[] args){
+
+        int arr[][]={{1,2,3}, {1,2,3}};
+        int sum=0;
+
+        for(int i=0; i<arr.length; i++){
+            for(int j=0; j<arr[i].length; j++){
+                int value=arr[i][j];
+                sum=sum+value;
             }
         }
-
-        //print
-        for(int rowIndex = 0; rowIndex<=arr.length-1; rowIndex++) {
-            for(int colIndex=0; colIndex<=arr[rowIndex].length-1; colIndex++) {
-                System.out.print(arr[rowIndex][colIndex] + " ");
-            }
-            System.out.println();
-        }
+        System.out.println(sum);
     }
 }
