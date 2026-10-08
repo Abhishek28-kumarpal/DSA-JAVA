@@ -105,19 +105,60 @@
 
 //---------------------------Sum of 2DArray element--------------------
 
-import java.util.*;
-public class TwoDarray{
-    public static void main(String[] args){
+// import java.util.*;
+// public class TwoDarray{
+//     public static void main(String[] args){
 
-        int arr[][]={{1,2,3}, {1,2,3}};
-        int sum=0;
+//         int arr[][]={{1,2,3}, {1,2,3}};
+//         int sum=0;
 
-        for(int i=0; i<arr.length; i++){
-            for(int j=0; j<arr[i].length; j++){
-                int value=arr[i][j];
-                sum=sum+value;
-            }
-        }
-        System.out.println(sum);
-    }
-}
+//         for(int i=0; i<arr.length; i++){
+//             for(int j=0; j<arr[i].length; j++){
+//                 int value=arr[i][j];
+//                 sum=sum+value;
+//             }
+//         }
+//         System.out.println(sum);
+//     }
+// }
+
+//             substration using 2d array
+
+
+// public class TwoDarray {
+//     public static void main(String[] args) {
+
+//         int[][] a = {
+//             {10, 20},
+//             {30, 40}
+//         };
+
+//         int[][] b = {
+//             {1, 2},
+//             {3, 4}
+//         };
+
+//         int[][] result = new int[2][2];
+
+//         for (int i = 0; i < a.length; i++) {
+//             for (int j = 0; j < a[i].length; j++) {
+//                 result[i][j] = a[i][j] - b[i][j];
+//             }
+//         }
+
+//         for (int i = 0; i < result.length; i++) {
+//             for (int j = 0; j < result[i].length; j++) {
+//                 System.out.print(result[i][j] + " ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+
+
+//         multiplication using 2d array
+
+
+
