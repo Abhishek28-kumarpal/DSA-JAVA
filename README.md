@@ -1,118 +1,163 @@
-# DSA-JAVA
-JAVA -DSA Practice  and  Coding Problems
+<div align="center">
 
+# 🧠 DSA From The Basics
 
-# ☕ DSA in Java | Daily Coding Journey
+### *Learning Data Structures & Algorithms step by step, one problem a day.*
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=F89820&center=true&vCenter=true&width=600&lines=Welcome+to+my+DSA+Journey!;Learning+Java+%7C+Solving+Problems;One+Problem+at+a+Time+%F0%9F%9A%80" alt="Typing SVG" />
-</p>
+![Language](https://img.shields.io/badge/Language-C++%20%7C%20Java%20%7C%20Python-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems%20Solved-0-success?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Streak-0%20days-orange?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO?style=for-the-badge&color=purple)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Focus-DSA-blue?style=for-the-badge" alt="DSA" />
-  <img src="https://img.shields.io/badge/Consistency-Daily-success?style=for-the-badge" alt="Daily Practice" />
-  <img src="https://img.shields.io/badge/Goal-Placement%20Ready-purple?style=for-the-badge" alt="Placement Ready" />
-</p>
+[▶️ **Learning Playlist**](https://www.youtube.com/watch?v=X2NVOSNBbxU&list=PLDzeHZWIZsTqNW1gvXXAicBgku9uPZeOC)
+
+</div>
 
 ---
 
-## 👨‍💻 About Me
+## 👋 About
 
-Hi! I'm **Abhishek Kumar Pal**, an MCA student passionate about programming, problem-solving, and software development.
+I'm **YOUR NAME**, and this repository is my daily DSA practice log. I follow a video playlist for the concepts and then solve problems on my own to make them stick.
 
-This repository documents my journey of learning **Data Structures and Algorithms (DSA) using Java**. I practice coding questions daily and push my solutions to GitHub to track my progress and build consistency.
+- 📺 **Learning from:** [YouTube Playlist](https://www.youtube.com/watch?v=X2NVOSNBbxU&list=PLDzeHZWIZsTqNW1gvXXAicBgku9uPZeOC) by **CREATOR NAME** *(add name)*
+- 🎯 **Goal:** build strong fundamentals and become interview-ready
+- 📆 **Started:** `DD-MM-YYYY`
 
-- ☕ Learning and solving problems using Java.
-- 🧠 Strengthening problem-solving and logical thinking.
-- 📚 Practicing DSA concepts one step at a time.
-- 💻 Maintaining a record of my daily coding practice.
-- 🎯 Preparing for technical interviews and campus placements.
+---
 
-> 🚀 My motto: "Slow and Study Wins the Race!"
+## 🗺️ Roadmap (Basics → Advanced)
 
-## 🛠️ Tech Stack
+Status: ⬜ Not started · 🟨 In progress · ✅ Done
 
-<p>
-  <img src="https://skillicons.dev/icons?i=java,git,github,vscode" alt="Java, Git, GitHub, VS Code" />
-</p>
+### 🔹 Phase 1 · Foundations
+| # | Topic | What I learn | Status |
+|:-:|:------|:-------------|:------:|
+| 1 | Programming Basics | Loops, functions, I/O, patterns | ⬜ |
+| 2 | Time & Space Complexity | Big-O, Omega, Theta, analysing code | ⬜ |
+| 3 | Arrays | Traversal, prefix sum, Kadane's, rotation | ⬜ |
+| 4 | Strings | Palindromes, anagrams, pattern matching | ⬜ |
+| 5 | Recursion | Base case, call stack, subsequences | ⬜ |
+| 6 | Hashing | Hash maps/sets, frequency counting | ⬜ |
 
-## 📚 Topics I'm Learning
+### 🔹 Phase 2 · Core Techniques
+| # | Topic | What I learn | Status |
+|:-:|:------|:-------------|:------:|
+| 7 | Sorting | Bubble, selection, insertion, merge, quick | ⬜ |
+| 8 | Binary Search | On arrays, on answer, rotated arrays | ⬜ |
+| 9 | Two Pointers | Pairs, triplets, merging | ⬜ |
+| 10 | Sliding Window | Fixed and variable windows | ⬜ |
+| 11 | Backtracking | Subsets, permutations, N-Queens | ⬜ |
+| 12 | Greedy | Intervals, scheduling, activity selection | ⬜ |
 
-| # | Topic | Status |
-|---|---|---|
-| 01 | Java Fundamentals | 🔄 Practicing |
-| 02 | Methods and Functions | 🔄 Practicing |
-| 03 | Arrays and 2D Arrays | 📖 Learning |
-| 04 | Strings | 📖 Learning |
-| 05 | Searching and Sorting | 🎯 Upcoming |
-| 06 | Recursion and Backtracking | 🎯 Upcoming |
-| 07 | Linked Lists | 🎯 Upcoming |
-| 08 | Stacks and Queues | 🎯 Upcoming |
-| 09 | Trees and Binary Search Trees | 🎯 Upcoming |
-| 10 | Hashing, Heaps and Graphs | 🎯 Upcoming |
-| 11 | Greedy Algorithms and Dynamic Programming | 🎯 Upcoming |
+### 🔹 Phase 3 · Data Structures
+| # | Topic | What I learn | Status |
+|:-:|:------|:-------------|:------:|
+| 13 | Linked List | Singly, doubly, cycle detection, reversal | ⬜ |
+| 14 | Stack | Parentheses, next greater element | ⬜ |
+| 15 | Queue & Deque | Circular queue, monotonic deque | ⬜ |
+| 16 | Binary Trees | Traversals, height, diameter, LCA | ⬜ |
+| 17 | Binary Search Tree | Insert, delete, validate, floor/ceil | ⬜ |
+| 18 | Heap / Priority Queue | Top-K, merge K lists, median | ⬜ |
+| 19 | Tries | Insert, search, prefix problems | ⬜ |
 
-*Status reflects my learning roadmap and will be updated as I progress.*
+### 🔹 Phase 4 · Advanced
+| # | Topic | What I learn | Status |
+|:-:|:------|:-------------|:------:|
+| 20 | Graphs | BFS, DFS, cycle detection, topological sort | ⬜ |
+| 21 | Shortest Path | Dijkstra, Bellman-Ford, Floyd-Warshall | ⬜ |
+| 22 | Dynamic Programming | 1D, 2D, knapsack, LIS, LCS | ⬜ |
+| 23 | Bit Manipulation | XOR tricks, masks, counting bits | ⬜ |
+| 24 | Segment Tree / DSU | Range queries, union-find | ⬜ |
 
-## 📂 Repository Structure
+---
 
-```text
-DSA-JAVA/
-│
-├── 02-Methods/
-│   └── Java method practice
-│
-├── LOVE DSA/
-│   └── Daily DSA solutions
-│
-└── README.md
+## 📊 Progress Tracker
+
+| Difficulty | Solved | Target |
+|:-----------|:------:|:------:|
+| 🟢 Easy | 0 | 100 |
+| 🟡 Medium | 0 | 150 |
+| 🔴 Hard | 0 | 50 |
+| **Total** | **0** | **300** |
+
+🔥 **Current streak:** `0 days` &nbsp;|&nbsp; 🏆 **Longest streak:** `0 days`
+
+---
+
+## 📁 Folder Structure
+
+```
+📦 DSA-From-Basics
+ ┣ 📂 01_Programming_Basics
+ ┣ 📂 02_Complexity_Analysis
+ ┣ 📂 03_Arrays
+ ┣ 📂 04_Strings
+ ┣ 📂 05_Recursion
+ ┣ 📂 06_Hashing
+ ┣ 📂 07_Sorting
+ ┣ 📂 08_Binary_Search
+ ┣ 📂 09_Two_Pointers
+ ┣ 📂 10_Sliding_Window
+ ┣ 📂 11_Backtracking
+ ┣ 📂 12_Greedy
+ ┣ 📂 13_Linked_List
+ ┣ 📂 14_Stack
+ ┣ 📂 15_Queue
+ ┣ 📂 16_Trees
+ ┣ 📂 17_BST
+ ┣ 📂 18_Heap
+ ┣ 📂 19_Tries
+ ┣ 📂 20_Graphs
+ ┣ 📂 21_Shortest_Path
+ ┣ 📂 22_Dynamic_Programming
+ ┣ 📂 23_Bit_Manipulation
+ ┣ 📂 24_Advanced
+ ┗ 📄 README.md
 ```
 
-*The structure may evolve as I organize more topics and solutions.*
+---
 
-## 📅 Daily Coding Challenge
+## 📺 Playlist Lecture Tracker
 
-My goal is to **solve problems consistently, understand the logic, and improve every day.**
+> Paste the video titles from the playlist here so each lecture maps to a topic.
 
-- [x] Practice Java programming.
-- [x] Push coding solutions to GitHub.
-- [ ] Build a consistent daily DSA habit.
-- [ ] Solve problems of increasing difficulty.
-- [ ] Revise previously solved questions.
-- [ ] Prepare for technical interviews.
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Abhishek28-kumarpal&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Statistics" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhishek28-kumarpal&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" />
-</p>
-
-## 🔥 My Coding Philosophy
-
-> "Consistency beats intensity. Every problem solved is a step forward."
-
-I believe that mastering DSA takes patience, practice, and continuous improvement. I'm focusing on understanding the fundamentals before moving towards advanced problem-solving.
-
-## 🤝 Let's Connect
-
-<p align="center">
-  <a href="https://github.com/Abhishek28-kumarpal">
-    <img src="https://img.shields.io/badge/GitHub-Follow%20My%20Journey-181717?style=for-the-badge&logo=github" alt="GitHub Profile" />
-  </a>
-  <a href="https://www.linkedin.com/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
+| Lecture | Title | Topic | Watched | Practice Done |
+|:-------:|:------|:------|:-------:|:-------------:|
+| 1 | *Video title* | Programming Basics | ⬜ | ⬜ |
+| 2 | *Video title* | Complexity | ⬜ | ⬜ |
+| 3 | *Video title* | Arrays | ⬜ | ⬜ |
 
 ---
 
-<p align="center">
-  ⭐ If you're also learning DSA, keep practicing and never give up!
-  <br/>
-  <b>Code. Learn. Improve. Repeat. 💻</b>
-</p>
+## 📅 Daily Log
+
+| Day | Date | Problem | Topic | Difficulty | Platform | Solution |
+|:---:|:----:|:--------|:------|:----------:|:--------:|:--------:|
+| 1 | DD-MM-YYYY | *Problem name* | Arrays | 🟢 Easy | LeetCode | [Code](./03_Arrays/) |
+| 2 | DD-MM-YYYY | *Problem name* | Arrays | 🟢 Easy | GFG | [Code](./03_Arrays/) |
+
+---
+
+## 🧩 How I Solve Each Problem
+
+1. 📖 Read the problem and write down the constraints
+2. 💡 Work out a brute-force solution first
+3. ⚡ Spot the bottleneck and pick a pattern or data structure
+4. 🧪 Test edge cases: empty input, one element, duplicates, large input
+5. ⏱️ Note time and space complexity in a comment
+6. 📝 Revise the pattern a few days later
+
+---
+
+## 🤝 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/YOUR_USERNAME)
+
+<div align="center">
+
+⭐ If this repo helps you, give it a star!
+
+**Keep learning, keep coding. 💻🔥**
+
+</div>
