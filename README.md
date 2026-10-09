@@ -125,8 +125,14 @@ Status: ⬜ Not started · 🟨 In progress · ✅ Done
 
 ## 🤝 Connect
 
-[![LinkedIn](https://www.linkedin.com/in/abhishekpal2002/)
-[![LeetCode](https://leetcode.com/u/Abhishak_kr_pal/)
+<p align="center">
+  <a href="https://github.com/Abhishek28-kumarpal">
+    <img src="https://img.shields.io/badge/GitHub-Follow%20My%20Journey-181717?style=for-the-badge&logo=github" alt="GitHub Profile" />
+  </a>
+  <a href="https://www.linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
 
 <div align="center">
 
