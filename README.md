@@ -9,19 +9,16 @@
 ![Streak](https://img.shields.io/badge/Streak-0%20days-orange?style=for-the-badge)
 ![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO?style=for-the-badge&color=purple)
 
-[▶️ **Learning Playlist**](https://www.youtube.com/watch?v=X2NVOSNBbxU&list=PLDzeHZWIZsTqNW1gvXXAicBgku9uPZeOC)
-
 </div>
 
 ---
 
 ## 👋 About
 
-I'm **YOUR NAME**, and this repository is my daily DSA practice log. I follow a video playlist for the concepts and then solve problems on my own to make them stick.
+I'm **Abhishek Kumar Pal**, and this repository is my daily DSA practice log. I follow a video playlist for the concepts and then solve problems on my own to make them stick.
 
-- 📺 **Learning from:** [YouTube Playlist](https://www.youtube.com/watch?v=X2NVOSNBbxU&list=PLDzeHZWIZsTqNW1gvXXAicBgku9uPZeOC) by **CREATOR NAME** *(add name)*
 - 🎯 **Goal:** build strong fundamentals and become interview-ready
-- 📆 **Started:** `DD-MM-YYYY`
+- 📆 **Started:** `30-09-2026`
 
 ---
 
@@ -115,17 +112,6 @@ Status: ⬜ Not started · 🟨 In progress · ✅ Done
  ┗ 📄 README.md
 ```
 
----
-
-## 📺 Playlist Lecture Tracker
-
-> Paste the video titles from the playlist here so each lecture maps to a topic.
-
-| Lecture | Title | Topic | Watched | Practice Done |
-|:-------:|:------|:------|:-------:|:-------------:|
-| 1 | *Video title* | Programming Basics | ⬜ | ⬜ |
-| 2 | *Video title* | Complexity | ⬜ | ⬜ |
-| 3 | *Video title* | Arrays | ⬜ | ⬜ |
 
 ---
 
