@@ -157,37 +157,58 @@
 
 
 
-
 //         multiplication using 2d array
 
 
+// public class TwoDarray {
+//     public static void main(String[] args) {
+
+//         int[][] a = {
+//             {10, 20},
+//             {30, 40}
+//         };
+
+//         int[][] b = {
+//             {1, 2},
+//             {3, 4}
+//         };
+
+//         int[][] result = new int[2][2];
+
+//         for (int i = 0; i < a.length; i++) {
+//             for (int j = 0; j < a[i].length; j++) {
+//                 result[i][j] = a[i][j] * b[i][j];
+//             }
+//         }
+
+//         for (int i = 0; i < result.length; i++) {
+//             for (int j = 0; j < result[i].length; j++) {
+//                 System.out.print(result[i][j] + " ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+//    Find Maximum value by the twod array
 
 public class TwoDarray {
     public static void main(String[] args) {
 
-        int[][] a = {
-            {10, 20},
-            {30, 40}
-        };
+        int arr[][] = {{1, 2, 3}, {21, 20, 19}};
 
-        int[][] b = {
-            {1, 2},
-            {3, 4}
-        };
+        int maxValue = arr[0][0];
 
-        int[][] result = new int[2][2];
-
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < a[i].length; j++) {
-                result[i][j] = a[i][j] * b[i][j];
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                if (arr[i][j] > maxValue) {
+                    // Update max
+                    maxValue = arr[i][j];
+                }
             }
         }
 
-        for (int i = 0; i < result.length; i++) {
-            for (int j = 0; j < result[i].length; j++) {
-                System.out.print(result[i][j] + " ");
-            }
-            System.out.println();
-        }
+        System.out.println(maxValue);
     }
 }
