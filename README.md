@@ -112,18 +112,6 @@ Status: ⬜ Not started · 🟨 In progress · ✅ Done
  ┗ 📄 README.md
 ```
 
-
----
-
-## 📅 Daily Log
-
-| Day | Date | Problem | Topic | Difficulty | Platform | Solution |
-|:---:|:----:|:--------|:------|:----------:|:--------:|:--------:|
-| 1 | DD-MM-YYYY | *Problem name* | Arrays | 🟢 Easy | LeetCode | [Code](./03_Arrays/) |
-| 2 | DD-MM-YYYY | *Problem name* | Arrays | 🟢 Easy | GFG | [Code](./03_Arrays/) |
-
----
-
 ## 🧩 How I Solve Each Problem
 
 1. 📖 Read the problem and write down the constraints
