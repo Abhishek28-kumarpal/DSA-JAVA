@@ -214,7 +214,7 @@
 // }
 
 
-//      Find Minimum value by the two D array
+//  Find Minimum value by the twod array
 
 public class TwoDarray {
     public static void main(String[] args) {
