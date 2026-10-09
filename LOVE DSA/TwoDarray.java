@@ -216,22 +216,62 @@
 
 //  Find Minimum value by the twod array
 
+// public class TwoDarray {
+//     public static void main(String[] args) {
+
+//         int arr[][] = {{1, 2, 3}, {21, 20, 19}};
+
+//         int minValue = arr[0][0];
+
+//         for (int i = 0; i < arr.length; i++) {
+//             for (int j = 0; j < arr[i].length; j++) {
+//                 if (arr[i][j] < minValue) {
+//                     // Update min
+//                     minValue = arr[i][j];
+//                 }
+//             }
+//         }
+
+//         System.out.println(minValue);
+//     }
+// }
+
+
+// Print 2D array using for each loop also get input 
+
+import java.util.Scanner;
+
 public class TwoDarray {
     public static void main(String[] args) {
 
-        int arr[][] = {{1, 2, 3}, {21, 20, 19}};
+        Scanner sc = new Scanner(System.in);
 
-        int minValue = arr[0][0];
+        System.out.print("Enter number of rows: ");
+        int rows = sc.nextInt();
 
+        System.out.print("Enter number of columns: ");
+        int cols = sc.nextInt();
+
+        int arr[][] = new int[rows][cols];
+
+        // Input elements
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                if (arr[i][j] < minValue) {
-                    // Update min
-                    minValue = arr[i][j];
-                }
+                System.out.print("Enter element: ");
+                arr[i][j] = sc.nextInt();
             }
         }
 
-        System.out.println(minValue);
+        // Print using for-each loop
+        System.out.println("2D Array:");
+
+        for (int[] row : arr) {
+            for (int element : row) {
+                System.out.print(element + " ");
+            }
+            System.out.println();
+        }
+
+        sc.close();
     }
 }
