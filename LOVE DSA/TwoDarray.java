@@ -193,22 +193,45 @@
 
 //    Find Maximum value by the twod array
 
+// public class TwoDarray {
+//     public static void main(String[] args) {
+
+//         int arr[][] = {{1, 2, 3}, {21, 20, 19}};
+
+//         int maxValue = arr[0][0];
+
+//         for (int i = 0; i < arr.length; i++) {
+//             for (int j = 0; j < arr[i].length; j++) {
+//                 if (arr[i][j] > maxValue) {
+//                     // Update max
+//                     maxValue = arr[i][j];
+//                 }
+//             }
+//         }
+
+//         System.out.println(maxValue);
+//     }
+// }
+
+
+//      Find Minimum value by the two D array
+
 public class TwoDarray {
     public static void main(String[] args) {
 
         int arr[][] = {{1, 2, 3}, {21, 20, 19}};
 
-        int maxValue = arr[0][0];
+        int minValue = arr[0][0];
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                if (arr[i][j] > maxValue) {
-                    // Update max
-                    maxValue = arr[i][j];
+                if (arr[i][j] < minValue) {
+                    // Update min
+                    minValue = arr[i][j];
                 }
             }
         }
 
-        System.out.println(maxValue);
+        System.out.println(minValue);
     }
 }
