@@ -125,8 +125,8 @@ Status: ⬜ Not started · 🟨 In progress · ✅ Done
 
 ## 🤝 Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/YOUR_USERNAME)
+[![LinkedIn](https://www.linkedin.com/in/abhishekpal2002/)
+[![LeetCode](https://leetcode.com/u/Abhishak_kr_pal/)
 
 <div align="center">
 
