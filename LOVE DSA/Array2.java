@@ -160,7 +160,7 @@
 
 // // // ----------------------way to get Input from user 
 
-// //         System.out.println("Enetr the element ");
+// //         System.out.println("Enter the element ");
 // //    Scanner sc=new Scanner(System.in);
 // //    int elmt=sc.nextInt();
 

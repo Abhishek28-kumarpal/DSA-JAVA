@@ -34,6 +34,8 @@
 // // int rowlength=arr.length; //find row length
 // // int collength=arr[0].length; // its find the row length
 // // like how many column in the row zero....
+
+
 //         for (int rowindex =0; rowindex < arr.length ;rowindex++){
 //             for(int colindex=0; colindex < arr[0].length ;colindex++){
 //                 System.out.print(arr[rowindex][colindex]+ " ");
@@ -44,6 +46,28 @@
 
 //     }
 // }
+
+import java.util.*;
+public class TwoDarray{
+    public static void main (String [] args){
+        int arr[][]={
+            {1,2,3},
+            {4,5,6},
+            {7,8,9}
+        };
+
+        for(int rowindex=0; rowindex<arr.length;rowindex++){
+
+            for(int colindex=0; colindex<arr[rowindex].length;colindex++){
+               System.out.print(arr[rowindex][colindex]);
+            }
+               System.out.println();
+
+
+        }
+
+    }
+}
 
 
 //--------------------------Jagged array--------------------------
@@ -239,39 +263,39 @@
 
 // Print 2D array using for each loop also get input 
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class TwoDarray {
-    public static void main(String[] args) {
+// public class TwoDarray {
+//     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter number of rows: ");
-        int rows = sc.nextInt();
+//         System.out.print("Enter number of rows: ");
+//         int rows = sc.nextInt();
 
-        System.out.print("Enter number of columns: ");
-        int cols = sc.nextInt();
+//         System.out.print("Enter number of columns: ");
+//         int cols = sc.nextInt();
 
-        int arr[][] = new int[rows][cols];
+//         int arr[][] = new int[rows][cols];
 
-        // Input elements
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
-                System.out.print("Enter element: ");
-                arr[i][j] = sc.nextInt();
-            }
-        }
+//         // Input elements
+//         for (int i = 0; i < arr.length; i++) {
+//             for (int j = 0; j < arr[i].length; j++) {
+//                 System.out.print("Enter element: ");
+//                 arr[i][j] = sc.nextInt();
+//             }
+//         }
 
-        // Print using for-each loop
-        System.out.println("2D Array:");
+//         // Print using for-each loop
+//         System.out.println("2D Array:");
 
-        for (int[] row : arr) {
-            for (int element : row) {
-                System.out.print(element + " ");
-            }
-            System.out.println();
-        }
+//         for (int[] row : arr) {
+//             for (int element : row) {
+//                 System.out.print(element + " ");
+//             }
+//             System.out.println();
+//         }
 
-        sc.close();
-    }
-}
+//         sc.close();
+//     }
+// }
