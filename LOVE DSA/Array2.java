@@ -308,6 +308,40 @@
 //   }
 // }
 
+// import java.util.*;
+// public class Array2{
+// public static void main(String[] args){
+// int arr[]={4,2,-5,21,15};
+// int minimum=arr[0];
+// for(int i=0;i<arr.length;i++){
+//   if(arr[i]<minimum){
+//     minimum=arr[i]; 
+//   }
+// }
+// System.out.println(minimum);
+// }
+// }
+
+
+
+// import java.util.Scanner;
+
+// public class Array2 {
+//     public static void main(String[] args) {
+
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter a string: ");
+//         String str = sc.nextLine();
+
+//         System.out.println("Your string is: " + str);
+
+//         sc.close();
+//     }
+// }
+
+
+
 import java.util.*;
 public class Array2{
 public static void main(String[] args){
