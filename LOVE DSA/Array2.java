@@ -308,19 +308,19 @@
 //   }
 // }
 
-// import java.util.*;
-// public class Array2{
-// public static void main(String[] args){
-// int arr[]={4,2,-5,21,15};
-// int minimum=arr[0];
-// for(int i=0;i<arr.length;i++){
-//   if(arr[i]<minimum){
-//     minimum=arr[i]; 
-//   }
-// }
-// System.out.println(minimum);
-// }
-// }
+import java.util.*;
+public class Array2{
+public static void main(String[] args){
+int arr[]={4,2,-5,21,15};
+int minimum=arr[0];
+for(int i=0;i<arr.length;i++){
+  if(arr[i]<minimum){
+    minimum=arr[i]; 
+  }
+}
+System.out.println(minimum);
+}
+}
 
 
 

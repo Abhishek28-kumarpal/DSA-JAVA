@@ -1,14 +1,130 @@
 // String  is just  a sequence of the character when a using  multiple character and form a word  like : Abhishek
 
-import java.util.*;
-public class string{
-    public static void main (String [] args){
+// import java.util.*;
+// public class string{
+//     public static void main (String [] args){
 
-        //1st way to create a string
-        String str1= new String ("paul");  
-        //  2nd way to create string
-        String str2="love";
-         System.out.println(str1);
-         System.out.println(str2);
-    }
-}
+//         //1st way to create a string
+//         String str1= new String ("paul");  
+//         //  2nd way to create string
+//         String str2="love";
+
+//         // print the string 
+//          System.out.println(str1);  
+//          System.out.println(str2);
+//     }
+// }
+
+
+//--------------------NOT PUSH-----------------------
+
+//                Access of character
+//                   Using of loop  
+
+// import java.util.*;
+// public class string{
+// public static void  main(String[] args){
+
+// Scanner sc=new Scanner(System.in);
+// String str=sc.nextLine();
+// sc.close(); // closing the Scanner object after taking input from the user 
+// // String str= "LOVE";
+
+// // in the "string" tength parentheses considered as a method.
+// //int he "array" we can't use the parenteses because considered as property
+// for (int i=0; i < str.length(); i++){
+// System.out.print(str.charAt(i));
+
+// }
+
+// }
+// }
+
+// //---------------------Comapring strings-----------
+// //                    There are three ways
+// //                         1. (==)
+
+// //                         Note*
+// // Because two Strings are same location into the string pool or heap memory
+// import java.util.*;
+// public class string{
+// public  static void main (String[] args){
+// String str="paul";
+
+// String str1="paul";
+
+// if(str==str1){
+//     System.out.println("both strings  are equal");
+// }else{
+//     System.out.println("both  strings are not  equal");
+
+// }
+
+// }
+// }
+
+
+
+// both strings are not equal because st1 has small (l) in this equal function has csae Sensitive
+// import java.util.*;
+// public class string{
+//     public static void main(String [] args){
+//         String str= "PAUL";
+//         String str1= "PAUl";
+
+//         if(str.equals(str1)){
+//             System.out.println("both strings are equal");
+//         }else{
+//             System.out.println("both strings are not equal");
+//         }
+//     }
+// }
+
+
+// import java.util.*;
+// public class string{
+//     public static void main(String[] args){
+
+//         String str="PAul";
+//         String str1="PauL";
+
+//         if(str.equalsIgnoreCase(str1)){
+//             System.out.println("both strings are equal");
+//         }else
+//              System.out.println("both strings are not equal");
+         
+//     }
+// }
+
+// import java.util.*;
+// public class string{
+// public static void main (String[] args){
+
+
+// // its used to change integer or another datatype to string by the using of valueOf method.
+// int num= 23;
+// String str = String.valueOf(num);
+// System.out.println(num+1); // 
+
+
+
+
+// String  name = "Babbar";
+// // create array character ka array
+// char[] crr = name.toCharArray(); 
+// // int arr[] arr=  
+
+// for(char ch:crr){// for each loop is the for print the value of the array 
+//     System.out.println(ch);// ch is for print the value of the character array LIKE: char[] 
+    // }
+
+
+    // String str="my,name,is,paul";
+    // String[] word= str.split(",");
+
+    // for(String val: word ){
+    //     System.out.println(val);
+    // }
+
+// }
+// }
