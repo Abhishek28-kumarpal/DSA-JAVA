@@ -108,23 +108,26 @@
 
 
 
+import java.util.*;
+public class string{
 
-// String  name = "Babbar";
-// // create array character ka array
-// char[] crr = name.toCharArray(); 
-// // int arr[] arr=  
+    public static void main (){
+String  name = "Babbar";
+// create array character ka array
+char[] crr = name.toCharArray(); 
+// int arr[] arr=  
 
-// for(char ch:crr){// for each loop is the for print the value of the array 
-//     System.out.println(ch);// ch is for print the value of the character array LIKE: char[] 
-    // }
+for(char ch:crr){// for each loop is the for print the value of the array 
+    System.out.println(ch);// ch is for print the value of the character array LIKE: char[] 
+    }
 
 
-    // String str="my,name,is,paul";
-    // String[] word= str.split(",");
+    String str="my,name,is,paul";
+    String[] word= str.split(",");
 
-    // for(String val: word ){
-    //     System.out.println(val);
-    // }
+    for(String val: word ){
+        System.out.println(val);
+    }
 
-// }
-// }
+}
+}
