@@ -108,26 +108,88 @@
 
 
 
-import java.util.*;
-public class string{
+// import java.util.*;
+// public class string{
 
-    public static void main (){
-String  name = "Babbar";
-// create array character ka array
-char[] crr = name.toCharArray(); 
-// int arr[] arr=  
+//     public static void main (){
+// String  name = "Babbar";
+// // create array character ka array
+// char[] crr = name.toCharArray(); 
+// // int arr[] arr=  
 
-for(char ch:crr){// for each loop is the for print the value of the array 
-    System.out.println(ch);// ch is for print the value of the character array LIKE: char[] 
+// for(char ch:crr){// for each loop is the for print the value of the array 
+//     System.out.println(ch);// ch is for print the value of the character array LIKE: char[] 
+//     }
+
+//     String str="my,name,is,paul";
+//     String[] word= str.split(",");
+
+//     for(String val: word ){
+//         System.out.println(val);
+//     }
+// }
+// }
+
+//              Practice Question
+ 
+// Q1    Print Each Character of the String.
+
+// import java.util.*;
+// public class string{
+
+//     static void printString(String str){
+//         for (int i=0;i<str.length();i++){
+//             char ch=str.charAt(i);
+//             System.out.println(ch);
+//         }
+//     }
+
+
+//     public static void main (String[] args){
+//       String str="Paul";
+//       printString(str);
+//     }
+// }
+
+// Q2 Count length of String without length()?
+// import java.util.*;
+// public class string{
+
+//     public static countstrings(String str){
+        
+//     }
+
+//     public static void main(String[] args){
+//         String str= "paul";
+
+//         countstrings(str);
+//     }
+// }
+
+
+// Q Count Vowels in a String
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String str = sc.nextLine().toLowerCase();
+
+        int count = 0;
+
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+
+            if (ch == 'a' || ch == 'e' || ch == 'i' ||
+                ch == 'o' || ch == 'u') {
+                count++;
+            }
+        }
+
+        System.out.println("Total vowels = " + count);
+
+        sc.close();
     }
-
-
-    String str="my,name,is,paul";
-    String[] word= str.split(",");
-
-    for(String val: word ){
-        System.out.println(val);
-    }
-
-}
 }
