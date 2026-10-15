@@ -146,4 +146,52 @@
 //     }
 // }
 
-//
+// Q2 count length of the string without using of length method.
+
+// import java.util.*;
+// public class string{
+//     public static void main (String[] args){
+//          String str1= new String ("paul");
+          
+//           int count =1;
+//         for(char val:str1.toCharArray()){
+//             count++;
+//          }
+//             System.out.println(count);
+//     }
+// }
+
+//Q3 Count vowels of the string.
+
+
+import java.util.*;
+
+public class string {
+
+    // Count vowels in the string
+    static int vowelcount(String str1) {
+
+        int count = 0;
+
+        for (int i = 0; i < str1.length(); i++) {
+
+            char ch = str1.charAt(i);
+
+            if (ch == 'A' || ch == 'E' || ch == 'I'
+                    || ch == 'O' || ch == 'U') {
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    public static void main(String[] args) {
+
+        String str1 = "PAUL";
+
+        System.out.println(vowelcount(str1));
+    }
+}
+
+
