@@ -130,9 +130,9 @@
 // }
 // }
 
-//              Practice Question
+//-------------------------------Practice Question
  
-//     Q1 Print each character of the string 
+//-----------Q1 Print each character of the string 
 
 // import java.util.*;
 // public class string{
@@ -160,25 +160,151 @@
 //             System.out.println(count);
 //     }
 // }
+// -----------------------------Q3 revrse string
+// import java.util.Scanner;
 
-import java.util.Scanner;
+// public class string {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter a string: ");
+//         String str = sc.nextLine();
+
+//         String rev = "";
+
+//         for (int i = str.length() - 1; i >= 0; i--) {
+//             rev = rev + str.charAt(i);
+//         }
+
+//         System.out.println("Reverse: " + rev);
+
+//         sc.close();
+//     }
+// }
+
+//  ----------------------------Reverse string
+// import java.util.*;
+// public class string{
+//    public static void main (String[] args){
+//       String str1="paul";  // initialisation
+
+//       for(int i=str1.length()-1;i>=0;i--){  //reverse loop print...
+//          char ch=str1.charAt(i);  // use to print the character of the string using charAt() method
+//          System.out.print(ch);
+//       }
+//    }
+// }
+
+
+//---------------------------------palindrome check
+
+// import java.util.*;
+// public class string{
+
+//    static boolean palindrome(String str1){
+//       String original=str1;
+//       String reversestr=reverseString(original);
+
+//       for(int=0;i<original.length();i++){
+//         char ch=original.charAt(i);
+//         char ch1=reversestr.charAt(i);
+
+//         if(ch!=ch1){
+//          return false;
+//         }
+//       }
+
+//    }
+//    return true;
+   
+//    public static void main(String[] args){
+//      System.out.println("Enter the string");
+//      Scanner sc=new Scanner(System.in);
+//      String str1=sc.next();
+
+//      System.out.println(reverseString(str1));
+
+//    }
+// }
+
+
+// public class string {
+
+//     static String reverseString(String str) {
+//         String reverse = "";
+
+//         for (int i = str.length() - 1; i >= 0; i--) {
+//             reverse = reverse + str.charAt(i);
+//         }
+
+//         return reverse;
+//     }
+
+//     static boolean isPalindrome(String str) {
+//         String reverse = reverseString(str);
+
+//         for (int i = 0; i < str.length(); i++) {
+//             char ch1 = str.charAt(i);
+//             char ch2 = reverse.charAt(i);
+
+//             if (ch1 != ch2) {
+//                 return false;
+//             }
+//         }
+
+//         return true;
+//     }
+
+//     public static void main(String[] args) {
+//         String str = "LOVE";
+
+//         System.out.println(reverseString(str));
+//         System.out.println(isPalindrome(str));
+//     }
+// }
+
+
+
+
+import java.util.*;
 
 public class string {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a string: ");
-        String str = sc.nextLine();
-
-        String rev = "";
+    static String reverseString(String str) {
+        String reverse = "";
 
         for (int i = str.length() - 1; i >= 0; i--) {
-            rev = rev + str.charAt(i);
+            reverse = reverse + str.charAt(i);
         }
 
-        System.out.println("Reverse: " + rev);
+        return reverse;
+    }
 
-        sc.close();
+    static boolean isPalindrome(String str) {
+        String original = str;
+        String reverse = reverseString(str);
+
+        for (int i = 0; i < original.length(); i++) {
+            char ch1 = original.charAt(i);
+            char ch2 = reverse.charAt(i);
+
+            if (ch1 != ch2) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static void main(String[] args) {
+
+        String str = "LOVE";
+
+        System.out.println(reverseString(str));
+        System.out.println(isPalindrome(str));
+
+        // System.out.println(getVowelsCount(str));
+        // System.out.println(getLengthOfString(str));
+        // printString(str);
     }
 }
-
