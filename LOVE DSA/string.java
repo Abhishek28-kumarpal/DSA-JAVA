@@ -161,37 +161,24 @@
 //     }
 // }
 
-//Q3 Count vowels of the string.
-
-
-import java.util.*;
+import java.util.Scanner;
 
 public class string {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-    // Count vowels in the string
-    static int vowelcount(String str1) {
+        System.out.print("Enter a string: ");
+        String str = sc.nextLine();
 
-        int count = 0;
+        String rev = "";
 
-        for (int i = 0; i < str1.length(); i++) {
-
-            char ch = str1.charAt(i);
-
-            if (ch == 'A' || ch == 'E' || ch == 'I'
-                    || ch == 'O' || ch == 'U') {
-                count++;
-            }
+        for (int i = str.length() - 1; i >= 0; i--) {
+            rev = rev + str.charAt(i);
         }
 
-        return count;
-    }
+        System.out.println("Reverse: " + rev);
 
-    public static void main(String[] args) {
-
-        String str1 = "PAUL";
-
-        System.out.println(vowelcount(str1));
+        sc.close();
     }
 }
-
 
