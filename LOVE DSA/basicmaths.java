@@ -44,3 +44,26 @@
 // } 
 
 
+//--------------------------Sum of digits of the number
+
+// import java.util.*;
+// public class basicmaths{
+//      static int sumOfdigits(int num){
+//         int sum =0;
+//        while(num!=0){
+//         int digits=num%10;
+
+//          sum=sum+digits;
+//         // System.out.println(digits);
+//         num= num/10;
+//        }
+//        return sum;
+//      }
+//     public static void main (String[] args){
+//         int num=12345;
+//         int sum=sumOfdigits(num);
+//         System.out.println(sum);
+//     }
+// } 
+
+
