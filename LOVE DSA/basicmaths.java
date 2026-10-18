@@ -95,41 +95,71 @@
 
 
 //------------------------------------palindrome number
+// import java.util.*;
+// public class basicmaths {
+//     static int reverseOfnumber(int num) {
+//         int revnum = 0;
+
+//         while (num != 0) {
+//             int digits = num % 10;
+//             revnum = revnum * 10 + digits;
+//             num = num / 10;
+//         }
+//         return revnum;
+//      }
+//      static boolean palindromenumm(int num){
+//         int original = num;
+//         int reversedNum = reverseOfnumber(num);
+
+//         if (original == reversedNum){
+//             System.out.println("It is a palindrome");
+//             return true;
+//         } else{
+//             System.out.println("It is not a palindrome");
+//             return false;
+//         }
+//     }
+     
+//     public static void main(String[] args){
+//         boolean ans = palindromenumm(1221);
+//         System.out.println(ans);
+//     }
+// }
 
 
-import java.util.*;
 
-public class basicmaths {
+//--------------------------------------------Print Prime number-------------- 
 
-    static int reverseOfnumber(int num) {
-        int revnum = 0;
+import java.util.Scanner;
+public class basicmaths{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
 
-        while (num != 0) {
-            int digits = num % 10;
-            revnum = revnum * 10 + digits;
-            num = num / 10;
-        }
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
 
-        return revnum;
-    }
+        boolean prime = true;
 
-    static boolean palindromenumm(int num) {
-        int original = num;
-        int reversedNum = reverseOfnumber(num);
-
-        if (original == reversedNum) {
-            System.out.println("It is a palindrome");
-            return true;
+        if (n <= 1) {
+            prime = false;
         } else {
-            System.out.println("It is not a palindrome");
-            return false;
+            for (int i = 2; i < n; i++) {
+                if (n % i == 0) {
+                    prime = false;
+                    break;
+                }
+            }
         }
-    }
+                    
+        if (prime) {
+            System.out.println("Prime Number");
+        } else {
+            System.out.println("Not a Prime Number");
+        }
 
-    public static void main(String[] args) {
-        boolean ans = palindromenumm(1234);
-        System.out.println(ans);
+        sc.close();
     }
 }
+
 
 
