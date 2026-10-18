@@ -16,7 +16,7 @@
 // }
 
 
-//--------------------NOT PUSH-----------------------
+
 
 //                Access of character
 //                   Using of loop  
@@ -63,7 +63,7 @@
 // }
 // }
 
-
+//---------------------------------------- 2. (.equals())--------------------------------
 
 // both strings are not equal because st1 has small (l) in this equal function has csae Sensitive
 // import java.util.*;
@@ -80,7 +80,7 @@
 //     }
 // }
 
-
+// -------------------------------------3.(.equalIgnoreCase())---------------
 // import java.util.*;
 // public class string{
 //     public static void main(String[] args){
@@ -96,6 +96,7 @@
 //     }
 // }
 
+//-----------------------------(ValueOf) method Use------------------------------------
 // import java.util.*;
 // public class string{
 // public static void main (String[] args){
@@ -104,10 +105,14 @@
 // // its used to change integer or another datatype to string by the using of valueOf method.
 // int num= 23;
 // String str = String.valueOf(num);
-// System.out.println(num+1); // 
+// System.out.println(str); 
+
+// }
+// }
 
 
 
+// -------------------------------Split method use----------------------------------------
 // import java.util.*;
 // public class string{
 
@@ -115,7 +120,7 @@
 // String  name = "Babbar";
 // // create array character ka array
 // char[] crr = name.toCharArray(); 
-// // int arr[] arr=  
+// // int arr[] arr=
 
 // for(char ch:crr){// for each loop is the for print the value of the array 
 //     System.out.println(ch);// ch is for print the value of the character array LIKE: char[] 
@@ -131,8 +136,8 @@
 // }
 
 //-------------------------------Practice Question
- 
-//-----------Q1 Print each character of the string 
+
+//----------------------------Q1 Print each character of the string 
 
 // import java.util.*;
 // public class string{
@@ -146,7 +151,7 @@
 //     }
 // }
 
-// Q2 count length of the string without using of length method.
+// --------------------------Q2 count length of the string without using of length method.
 
 // import java.util.*;
 // public class string{
@@ -160,7 +165,7 @@
 //             System.out.println(count);
 //     }
 // }
-// -----------------------------Q3 revrse string
+// -----------------------------Q3 revrse string---------------------------------------
 // import java.util.Scanner;
 
 // public class string {
@@ -182,11 +187,15 @@
 //     }
 // }
 
-//  ----------------------------Reverse string
+//  ----------------------------Q4 Reverse string-----------------------------------------
 // import java.util.*;
 // public class string{
 //    public static void main (String[] args){
-//       String str1="paul";  // initialisation
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter a string: ");
+//         String str1 = sc.nextLine();
+//     //   String str1="paul";  // initialisation
 
 //       for(int i=str1.length()-1;i>=0;i--){  //reverse loop print...
 //          char ch=str1.charAt(i);  // use to print the character of the string using charAt() method
@@ -196,113 +205,42 @@
 // }
 
 
-//---------------------------------palindrome check
+//---------------------------------Q5 palindrome check----------------------------------
 
-// import java.util.*;
-// public class string{
+import java.util.*;
 
-//    static boolean palindrome(String str1){
-//       String original=str1;
-//       String reversestr=reverseString(original);
+public class string {
 
-//       for(int=0;i<original.length();i++){
-//         char ch=original.charAt(i);
-//         char ch1=reversestr.charAt(i);
+    static String reverseString(String str) {
+        String reverse = " ";
 
-//         if(ch!=ch1){
-//          return false;
-//         }
-//       }
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reverse = reverse + str.charAt(i);
+        }
 
-//    }
-//    return true;
-   
-//    public static void main(String[] args){
-//      System.out.println("Enter the string");
-//      Scanner sc=new Scanner(System.in);
-//      String str1=sc.next();
+        return reverse;
+    }
 
-//      System.out.println(reverseString(str1));
+    static boolean isPalindrome(String str) {
+        String reverse = reverseString(str);
 
-//    }
-// }
+        for (int i = 0; i < str.length(); i++) {
+            char ch1 = str.charAt(i);
+            char ch2 = reverse.charAt(i);
 
+            if (ch1 != ch2) {
+                return false;
+            }
+        }
 
-// public class string {
+        return true;
+    }
 
-//     static String reverseString(String str) {
-//         String reverse = "";
+    public static void main(String[] args) {
+        String str = "dad";
 
-//         for (int i = str.length() - 1; i >= 0; i--) {
-//             reverse = reverse + str.charAt(i);
-//         }
+        System.out.println(reverseString(str));
+        System.out.println(isPalindrome(str));
+    }
+}
 
-//         return reverse;
-//     }
-
-//     static boolean isPalindrome(String str) {
-//         String reverse = reverseString(str);
-
-//         for (int i = 0; i < str.length(); i++) {
-//             char ch1 = str.charAt(i);
-//             char ch2 = reverse.charAt(i);
-
-//             if (ch1 != ch2) {
-//                 return false;
-//             }
-//         }
-
-//         return true;
-//     }
-
-//     public static void main(String[] args) {
-//         String str = "LOVE";
-
-//         System.out.println(reverseString(str));
-//         System.out.println(isPalindrome(str));
-//     }
-// }
-
-
-// import java.util.*;
-
-// public class string {
-
-//     static String reverseString(String str) {
-//         String reverse = "";
-
-//         for (int i = str.length() - 1; i >= 0; i--) {
-//             reverse = reverse + str.charAt(i);
-//         }
-
-//         return reverse;
-//     }
-
-//     static boolean isPalindrome(String str) {
-//         String original = str;
-//         String reverse = reverseString(str);
-
-//         for (int i = 0; i < original.length(); i++) {
-//             char ch1 = original.charAt(i);
-//             char ch2 = reverse.charAt(i);
-
-//             if (ch1 != ch2) {
-//                 return false;
-//             }
-//         }
-
-//         return true;
-//     }
-
-//     public static void main(String[] args) {
-
-//         String str = "LOVE";
-
-//         System.out.println(reverseString(str));
-//         System.out.println(isPalindrome(str));
-
-//         // System.out.println(getVowelsCount(str));
-//         // System.out.println(getLengthOfString(str));
-//         // printString(str);
-//     }
-// }

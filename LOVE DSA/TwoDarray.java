@@ -47,27 +47,27 @@
 //     }
 // }
 
-import java.util.*;
-public class TwoDarray{
-    public static void main (String [] args){
-        int arr[][]={
-            {1,2,3},
-            {4,5,6},
-            {7,8,9}
-        };
+// import java.util.*;
+// public class TwoDarray{
+//     public static void main (String [] args){
+//         int arr[][]={
+//             {1,2,3},
+//             {4,5,6},
+//             {7,8,9}
+//         };
 
-        for(int rowindex=0; rowindex<arr.length;rowindex++){
+//         for(int rowindex=0; rowindex<arr.length;rowindex++){
 
-            for(int colindex=0; colindex<arr[rowindex].length;colindex++){
-               System.out.print(arr[rowindex][colindex]);
-            }
-               System.out.println();
+//             for(int colindex=0; colindex<arr[rowindex].length;colindex++){
+//                System.out.print(arr[rowindex][colindex]);
+//             }
+//                System.out.println();
 
 
-        }
+//         }
 
-    }
-}
+//     }
+// }
 
 
 //--------------------------Jagged array--------------------------
