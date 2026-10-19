@@ -128,38 +128,35 @@
 
 
 
-//--------------------------------------------Print Prime number-------------- 
+//-------------------------Print Prime number--Time Complexityis N^2----------------- 
 
-import java.util.Scanner;
-public class basicmaths{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+// import java.util.*;
+// public class basicmaths{
 
-        System.out.print("Enter a number: ");
-        int n = sc.nextInt();
 
-        boolean prime = true;
+//     static boolean isprime(int num){
+//         for(int i=2;i<num-1;i++){ // complexity n^2
+//             if(num%i==0){
+//          System.out.println("numer is not prime");
+//                 return false;
 
-        if (n <= 1) {
-            prime = false;
-        } else {
-            for (int i = 2; i < n; i++) {
-                if (n % i == 0) {
-                    prime = false;
-                    break;
-                }
-            }
-        }
-                    
-        if (prime) {
-            System.out.println("Prime Number");
-        } else {
-            System.out.println("Not a Prime Number");
-        }
+//             }
+//         }
+//         // when the num is not divided by any number between 2 to num value like:- num=7 
+//         // then return true
+        
+         
+//          System.out.println("numer is prime");
+//         return true;
 
-        sc.close();
-    }
-}
-
+//     }
+//     public static void main(String[] args){
+//          System.out.println("Enter the number");
+//          Scanner sc= new Scanner(System.in);
+//          int num=sc.nextInt();
+//          System.out.println(isprime(num));
+        
+//     }
+// }
 
 
