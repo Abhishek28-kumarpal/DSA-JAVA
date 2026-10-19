@@ -247,48 +247,81 @@
 
 //------------------------Armstrong number------------------------
 
-import java.util.*;
+// import java.util.*;
 
+// public class basicmaths{
+
+//     public static void main (String[] args){ 
+
+//         // Scanner sc=new Scanner (System.in);
+//         // int num=sc.nextInt();
+
+//         System.out.println("Enter the number");
+//          Scanner sc=new Scanner (System.in);
+//          int num=sc.nextInt();
+
+         
+//         // int num= 153;
+
+//         int sum=0;
+//         int originalnum=num;
+//         while(num!=0){
+//            int digit= num%10;
+
+//            int cube= digit*digit*digit;
+//            sum=sum+cube; 
+//            num= num/ 10;
+//         } 
+//         if(sum== originalnum){
+
+//         System.out.println("the number is Armstrong");
+//             // return true;
+//         }
+//         else{
+//         System.out.println("the number is not Armstrong");
+//             // return false;
+//         }
+//     }
+// }
+
+
+//---------------------------Find divisor and check perfect number
+ 
+import java.util.*;
 public class basicmaths{
 
     public static void main (String[] args){
-
-        // Scanner sc=new Scanner (System.in);
-        // int num=sc.nextInt();
-
         System.out.println("Enter the number");
-         Scanner sc=new Scanner (System.in);
-         int num=sc.nextInt();
+     Scanner sc=new Scanner(System.in);
+     int num=sc.nextInt();
 
-         
-        // int num= 153;
+     
+        //  int num=6;
 
-        int sum=0;
-        int originalnum=num;
-        while(num!=0){
-           int digit= num%10;
+          int sum=1;
 
-           int cube= digit*digit*digit;
-           sum=sum+cube; 
-           num= num/ 10;
-        } 
-        if(sum== originalnum){
+         for(int i=2; i*i<=num;i++){
+     if(num % i==0){
+        int firstfactor =i;
+        int secondfactor = num/i;
+        sum=sum+firstfactor + secondfactor ;
+     }
+ }
 
-        System.out.println("the number is Armstrong");
-            // return true;
-        }
-        else{
-        System.out.println("the number is not Armstrong");
-            // return false;
-        }
-        
+          if(sum== num){
+        System.out.println("this number is perfect number");
 
-        
-        
+        //   return true;
 
-        
+ }else{
+        System.out.println("this number is not  perfect number");
+    // return false;
+ }
     }
 }
+
+
+
 
 
 
