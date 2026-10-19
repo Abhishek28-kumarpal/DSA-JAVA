@@ -218,30 +218,77 @@
 
 // -------------------------Calculate GCD/
 
+// import java.util.*;
+
+// public class basicmaths{
+//     public static void main (String[] args){
+     
+//    System.out.println("Enter the number");
+//    Scanner sc= new Scanner (System.in);
+//    int n1= sc.nextInt();
+//    int n2= sc.nextInt();
+//     int ogn1=n1;
+//     int ogn2=n2;
+//    while(n1 % n2 !=0){
+//     int rem =n1%n2; 
+//     n1 = n2;
+//     n2 = rem;
+// }
+// int gcd = n2;
+// int lcm=ogn1*ogn2/gcd;  // for finding the LCM 
+// System.out.println("The GCD is "+gcd);
+// System.out.println("The LCM is "+lcm);
+
+//     }
+// }
+
+
+
+
+//------------------------Armstrong number------------------------
+
 import java.util.*;
 
 public class basicmaths{
-    public static void main (String[] args){
-     
-   System.out.println("Enter the number");
-   Scanner sc= new Scanner (System.in);
-   int n1= sc.nextInt();
-   int n2= sc.nextInt();
-    int ogn1=n1;
-    int ogn2=n2;
-   while(n1 % n2 !=0){
-    int rem =n1%n2; 
-    n1 = n2;
-    n2 = rem;
-}
-int gcd = n2;
-int lcm=ogn1*ogn2/gcd;  // for finding the LCM 
-System.out.println("The GCD is "+gcd);
-System.out.println("The LCM is "+lcm);
 
+    public static void main (String[] args){
+
+        // Scanner sc=new Scanner (System.in);
+        // int num=sc.nextInt();
+
+        System.out.println("Enter the number");
+         Scanner sc=new Scanner (System.in);
+         int num=sc.nextInt();
+
+         
+        // int num= 153;
+
+        int sum=0;
+        int originalnum=num;
+        while(num!=0){
+           int digit= num%10;
+
+           int cube= digit*digit*digit;
+           sum=sum+cube; 
+           num= num/ 10;
+        } 
+        if(sum== originalnum){
+
+        System.out.println("the number is Armstrong");
+            // return true;
+        }
+        else{
+        System.out.println("the number is not Armstrong");
+            // return false;
+        }
+        
+
+        
+        
+
+        
     }
 }
-
 
 
 
