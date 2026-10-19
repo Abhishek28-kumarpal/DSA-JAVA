@@ -160,3 +160,32 @@
 // }
 
 
+//-------------------------Print Prime number--Time Complexityis  √2 ----------------- 
+
+// import java.util.*;
+// public class basicmaths{
+
+//     static boolean isprime(int num){
+//         for(int i=2;i*i<=num;i++){ // less complexity logic....
+//             if(num%i==0){
+//          System.out.println("numer is not prime");
+//                 return false;
+
+//             }
+//         }
+//         // when the num is not divided by any number between 2 to num value like:- num=7 
+//         // then return true
+        
+         
+//         System.out.println("numer is prime");
+//         return true;
+
+//     }
+//     public static void main(String[] args){
+//          System.out.println("Enter the number");
+//          Scanner sc= new Scanner(System.in);
+//          int num=sc.nextInt();
+//          System.out.println(isprime(num));
+        
+//     }
+// }
