@@ -94,6 +94,7 @@
 // }
 
 
+
 //------------------------------------palindrome number
 // import java.util.*;
 // public class basicmaths {
@@ -128,7 +129,7 @@
 
 
 
-//-------------------------Print Prime number--Time Complexityis N^2----------------- 
+//-------------------------Print Prime number--Time Complexity N^2----------------- 
 
 // import java.util.*;
 // public class basicmaths{
@@ -160,7 +161,7 @@
 // }
 
 
-//-------------------------Print Prime number--Time Complexityis  √2 ----------------- 
+//--------------Print Prime number--Time Complexityis  √2 ----------------- 
 
 // import java.util.*;
 // public class basicmaths{
@@ -189,3 +190,28 @@
         
 //     }
 // }
+
+
+
+//-----------------------------------REVERSE A NUMBER--------------------------
+import java.util.*;
+public class basicmaths{
+ static int reverseOfnumber(int num) {
+        int revnum = 0;
+
+        while (num != 0) {
+            int digits = num % 10;
+            revnum = revnum * 10 + digits;
+            num = num / 10;
+        }
+        return revnum;
+     }
+     public static void main (String[] args){
+        System.out.println("Enter the number");
+        Scanner sc=new Scanner (System.in);
+            int num= sc.nextInt();
+
+            System.out.println(reverseOfnumber(num));
+
+        }
+     }
