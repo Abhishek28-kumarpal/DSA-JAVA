@@ -128,7 +128,6 @@
 // }
 
 
-
 //-------------------------Print Prime number--Time Complexity N^2----------------- 
 
 // import java.util.*;
@@ -159,7 +158,7 @@
         
 //     }
 // }
-
+ 
 
 //--------------Print Prime number--Time Complexityis  √2 ----------------- 
 
@@ -194,24 +193,59 @@
 
 
 //-----------------------------------REVERSE A NUMBER--------------------------
+// import java.util.*;
+// public class basicmaths{
+//  static int reverseOfnumber(int num) {
+//         int revnum = 0;
+
+//         while (num != 0) {
+//             int digits = num % 10;
+//             revnum = revnum * 10 + digits;
+//             num = num / 10;
+//         }
+//         return revnum;
+//      }
+//      public static void main (String[] args){
+//         System.out.println("Enter the number");
+//         Scanner sc=new Scanner (System.in);
+//             int num= sc.nextInt();
+
+//             System.out.println(reverseOfnumber(num));
+
+//         }
+//      }
+
+
+// -------------------------Calculate GCD/
+
 import java.util.*;
+
 public class basicmaths{
- static int reverseOfnumber(int num) {
-        int revnum = 0;
+    public static void main (String[] args){
+     
+   System.out.println("Enter the number");
+   Scanner sc= new Scanner (System.in);
+   int n1= sc.nextInt();
+   int n2= sc.nextInt();
+    int ogn1=n1;
+    int ogn2=n2;
+   while(n1 % n2 !=0){
+    int rem =n1%n2; 
+    n1 = n2;
+    n2 = rem;
+}
+int gcd = n2;
+int lcm=ogn1*ogn2/gcd;  // for finding the LCM 
+System.out.println("The GCD is "+gcd);
+System.out.println("The LCM is "+lcm);
 
-        while (num != 0) {
-            int digits = num % 10;
-            revnum = revnum * 10 + digits;
-            num = num / 10;
-        }
-        return revnum;
-     }
-     public static void main (String[] args){
-        System.out.println("Enter the number");
-        Scanner sc=new Scanner (System.in);
-            int num= sc.nextInt();
+    }
+}
 
-            System.out.println(reverseOfnumber(num));
 
-        }
-     }
+
+
+
+
+
+
