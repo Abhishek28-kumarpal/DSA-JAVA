@@ -287,45 +287,66 @@
 
 //---------------------------Find divisor and check perfect number
  
-import java.util.*;
-public class basicmaths{
+// import java.util.*;
+// public class basicmaths{
 
-    public static void main (String[] args){
-        System.out.println("Enter the number");
-     Scanner sc=new Scanner(System.in);
-     int num=sc.nextInt();
+//     public static void main (String[] args){
+//         System.out.println("Enter the number");
+//      Scanner sc=new Scanner(System.in);
+//      int num=sc.nextInt();
 
      
-        //  int num=6;
+//         //  int num=6;
 
-          int sum=1;
+//           int sum=1;
 
-         for(int i=2; i*i<=num;i++){
-     if(num % i==0){
-        int firstfactor =i;
-        int secondfactor = num/i;
-        sum=sum+firstfactor + secondfactor ;
-     }
- }
+//          for(int i=2; i*i<=num;i++){  // prime number logic alternative if the num.length
+//      if(num % i==0){
+//         int firstfactor =i;
+//         int secondfactor = num/i;
+//         sum=sum+firstfactor + secondfactor ;
+//      }
+//  }
 
-          if(sum== num){
-        System.out.println("this number is perfect number");
+//           if(sum== num){
+//         System.out.println("this number is perfect number");
 
-        //   return true;
+//         //   return true;
 
- }else{
-        System.out.println("this number is not  perfect number");
-    // return false;
- }
+//  }else{
+//         System.out.println("this number is not  perfect number");
+//     // return false;
+//  }
+//     }
+// }
+
+//----------------------Print Prime number form 1 to N------------------
+
+
+import java.util.*;
+
+public class basicmaths {
+    public static void main(String[] args) {
+
+        System.out.println("Enter the number:");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+
+        for (int n = 2; n <= num; n++) {
+            boolean prime = true;
+
+            for (int i = 2; i * i <= n; i++) {
+                if (n % i == 0) {
+                    prime = false;
+                    break;
+                }
+            }
+
+            if (prime) {
+                System.out.println(n + " is prime");
+            }
+        }
+
+        // sc.close();
     }
 }
-
-
-
-
-
-
-
-
-
-
