@@ -3,16 +3,21 @@ import java.util.*;
 public class App{
     public static void main (String[] args){
     // default ctor
-    Student A=new Student(); //A is the object of the class of Student class
-    A.id=1;
-    A.name="abhsihek";
-    A.nos= 5;
-    System.out.println(A.id);
-    System.out.println(A.name);
-    System.out.println(A.nos);
+    // Student A=new Student(); //A is the object of the class of Student class
+    // A.id=1;
+    // A.name="abhsihek";
+    // A.nos= 5;
+    // System.out.println(A.id);
+    // System.out.println(A.name);
+    // System.out.println(A.nos);
 
-    A.bunk();
-    A.sleep();
-    A.study();
+    // A.bunk();
+    // A.sleep();
+    // A.study();
+
+    // Parametereised Ctor
+
+    Student A =new Student (1, 23, "abhishek",5);
+    
     }
 }
