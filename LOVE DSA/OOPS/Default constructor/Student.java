@@ -9,7 +9,9 @@ public class Student{
         System.out.println("STUDENT DEFAULT CONSTRUCTOR CALLED");
     }
 
-// Parameterised ctor
+
+
+// Parameterised CTOR
 
 public Student( int id, int age, String name,int nos){
 System.out.println("Student Parameterised ctor");
@@ -18,6 +20,7 @@ this.id=id;
 this.age=age;
 this.name=name;
 this. nos=nos;
+
 }
 // Method / Behaviour
 public void study(){
@@ -33,4 +36,4 @@ public void bunk(){
 
 }
 
-} 
+}

@@ -19,5 +19,11 @@ public class App{
 
     Student A =new Student (1, 23, "abhishek",5);
     
+    copyctor B = new copyctor(A);
+
+    System.out.println(B.id);
+    System.out.println(B.age);
+    System.out.println(B.name);
+    System.out.println(B.nos);
     }
 }
