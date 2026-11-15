@@ -26,5 +26,6 @@ public class App{
     System.out.println(B.age);
     System.out.println(B.name);
     System.out.println(B.nos);
+    
     }
 }
