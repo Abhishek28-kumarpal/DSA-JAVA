@@ -1,8 +1,9 @@
+import java.util.*;
 public class compiletimepolymorphism{
 //      int add (int a, int b){
 //         return a+b;
 //      }
-// // After that this  is the two time Overloading Overlodaing nd 3 int addition
+// // After that this is the two time Overloading Overlodaing nd 3 int addition
 
 //         int add(int a, int b, int c){ //1st overload
 //             return a+b+c;
@@ -21,6 +22,10 @@ public class compiletimepolymorphism{
     // Runtime polymorphism
     circle c= new circle(); // create object
     c.draw();
+
+
+    rect r= new rect();
+    r.rect();
 
    }
 }
