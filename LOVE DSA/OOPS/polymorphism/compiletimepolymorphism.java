@@ -13,6 +13,8 @@ public class compiletimepolymorphism{
 //             return a + b + c + d;
 //         }
     
+   
+    
     public static void main (String [] args){
     // compiletimepolymorphism c = new compiletimepolymorphism();
     // System.out.println(c.add(2,3));
@@ -21,11 +23,18 @@ public class compiletimepolymorphism{
 
     // Runtime polymorphism
     circle c= new circle(); // create object
-    c.draw();
+    dodrawingstuff(c);  // Upcasting 
 
 
     rect r= new rect();
     r.rect();
+    dodrawingstuff(r);
 
    }
+
+
+    public static void dodrawingstuff( shape s){
+        s.draw();
+    }
+
 }
